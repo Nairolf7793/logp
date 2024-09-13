@@ -25,6 +25,7 @@ $licence = $query->fetchAll(PDO::FETCH_ASSOC);
 
     <section id="registered"> <!-- section pilotes inscrits -->
         <h2>Pilotes inscrits</h2>
+        
         <?php foreach ($licence as $valeur) { ?>
             <p><?php echo $valeur['firstname'] ?></p>
             <p></p>
